@@ -1,11 +1,11 @@
 ---
 layout: home
-title: EoW
+title: EoWW
 ---
 
-# EoW – End of Week Inspiration
+# EoWW – End of Work Week Inspiration
 
-Welcome to **EoW**, a curated weekly selection of curious things to reverse work week woe.
+Welcome to **EoWW**, a curated weekly selection of curious things to reverse work week woe.
 
 ## Interesting Links for Interested People
 
