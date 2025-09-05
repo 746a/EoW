@@ -1,0 +1,23 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    background: #fefdf8;
+    color: #222;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1, h2 {
+    color: #444;
+    margin-top: 2rem;
+}
+
+a {
+    color: #3a5f7d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

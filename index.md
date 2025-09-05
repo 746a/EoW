@@ -5,14 +5,14 @@ title: EoW
 
 # EoW – End of Week Inspiration
 
-Welcome to EoW, a curated weekly selection of calm and fascinating resources.
+Welcome to **EoW**, a curated end of weekly selection of curious things to reverse work week woe.
 
-## Editions
+## Interesting Links for Interested People
 
-<ul>
+## Weeks
+
 {% for post in site.pages %}
   {% if post.dir contains "_weeks" %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+- [{{ post.title }}]({{ post.url }})
   {% endif %}
 {% endfor %}
-</ul>
