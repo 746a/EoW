@@ -5,9 +5,7 @@ title: EoWW
 
 # EoWW – End of Work Week Inspiration
 
-Welcome to **EoWW**, a curated weekly selection of curious things to reverse work week woe.
-
-## Interesting Links for Interested People
+Welcome to **EoWW**, a curated weekly selection of curious things to reverse work week wwoe.
 
 ## Weeks
 
