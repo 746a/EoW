@@ -9,10 +9,9 @@ Welcome to **EoW**, a curated end of weekly selection of curious things to rever
 
 ## Interesting Links for Interested People
 
-## Weeks
+## Editions
 
-{% for post in site.pages %}
-  {% if post.dir contains "_weeks" %}
+{% assign sorted = site.weeks | sort: "date" | reverse %}
+{% for post in sorted %}
 - [{{ post.title }}]({{ post.url }})
-  {% endif %}
 {% endfor %}

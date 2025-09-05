@@ -1,7 +1,12 @@
 title: EoW
 description: End-of-week calm inspiration
-baseurl: ""
-url: "https://yourusername.github.io/EoW"
+baseurl: "" 
+url: "https://746a.github.io/EoW"
 theme: minima
+
 plugins:
   - jekyll-feed
+
+collections:
+  weeks:
+    output: true
