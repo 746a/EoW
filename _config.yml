@@ -10,4 +10,4 @@ plugins:
 collections:
   weeks:
     output: true
-    permalink: /:week/:name
+    permalink: /weeks/:name/

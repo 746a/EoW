@@ -1,23 +1,134 @@
+/* Base layout */
 body {
-    font-family: Georgia, serif;
-    line-height: 1.6;
-    background: #fefdf8;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif;
+    line-height: 1.7;
+    background: #faf9f6;
     color: #222;
-    max-width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 900px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
 
-h1, h2 {
-    color: #444;
-    margin-top: 2rem;
+/* Headings */
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #2c2c2c;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
+h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+/* Links */
 a {
-    color: #3a5f7d;
+    color: #305a74;
     text-decoration: none;
+    transition: color 0.2s ease, border-bottom 0.2s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #1e3d52;
+}
+
+/* Homepage specific */
+body.home header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+body.home header h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+body.home header p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+/* Card grid */
+body.home .editions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+body.home .editions .card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+body.home .editions .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+body.home .editions .card h2 {
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+body.home .editions .card p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Week posts */
+body.week article {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+body.week .date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid #ccc;
+    color: #555;
+    font-style: italic;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    body.home header h1 {
+        font-size: 2rem;
+    }
+    body.home .editions {
+        grid-template-columns: 1fr;
+    }
 }
