@@ -153,10 +153,12 @@ blockquote {
     font-family: "Young Serif", Georgia, serif;
 }
 
-.backHome{
-    font-size: 1em;
-    text-align: center;
-    font-family: "Young Serif", Georgia, serif;
+.backHome {
+  display: block; 
+  font-size: 1em;
+  font-family: "Young Serif", Georgia, serif;
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 /* Responsive tweaks */
