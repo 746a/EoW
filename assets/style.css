@@ -139,11 +139,12 @@ blockquote {
 }
 
 .backHome {
-  display: inline-block; 
+  display: inline; 
   font-size: 1em;
   font-family: "Young Serif", Georgia, serif;
   text-align: left;
   margin-bottom: 1rem;
+  border-bottom: none;
 }
 
 /* Responsive tweaks */
