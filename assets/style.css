@@ -54,16 +54,6 @@ h2 {
     font-size: 1.4rem;
 }
 
-/* Links */
-a {
-    color: #305a74;
-    text-decoration: none;
-    transition: color 0.2s ease, border-bottom 0.2s ease;
-}
-
-a:hover {
-    color: #1e3d52;
-}
 
 /* Homepage specific */
 body.home header {
