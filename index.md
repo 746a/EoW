@@ -3,7 +3,7 @@ layout: home
 title: "End of Work Week"
 ---
 
-<div class="motto">Welcome to **EoWW**: a weekly selection of curious things to reverse work week wwoe</div>
+<div class="motto">Welcome to <b>EoWW:</b> a weekly selection of curious things to reverse work week wwoe</div>
 
 ## Weekly Editions
 
