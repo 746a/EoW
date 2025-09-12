@@ -12,7 +12,7 @@ title: "End of Work Week"
   {% for post in sorted %}
   <div class="card">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p>{{ post.date | date: "%d %B %Y" }}</p>
+    <p>{{ post.description }}</p>
   </div>
   {% endfor %}
 </div>
