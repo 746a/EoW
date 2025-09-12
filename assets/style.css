@@ -20,12 +20,14 @@ body {
 
 a {
     color: #0000ff !important;
-    border-bottom: 1px solid #0000ff !important;
+    border-bottom: none;
+    text-decoration: none;
 }
 
 a:visited {
     color: #9523ff !important;
-    border-bottom: 1px solid #9523ff !important;
+    border-bottom: none;
+    text-decoration: none;
 }
 
 main {
@@ -139,12 +141,13 @@ blockquote {
 }
 
 .backHome {
-  display: inline; 
-  font-size: 1em;
-  font-family: "Young Serif", Georgia, serif;
-  text-align: left;
-  margin-bottom: 1rem;
-  border-bottom: none;
+    display: inline;
+    font-size: 1em;
+    font-family: "Young Serif", Georgia, serif;
+    text-align: left;
+    margin-bottom: 1rem;
+    border-bottom: none;
+    text-decoration: none;
 }
 
 /* Responsive tweaks */
