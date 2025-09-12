@@ -1,6 +1,6 @@
 ---
 layout: home
-Title: "EoWW: a weekly selection of curious things to reverse work week wwoe"
+title: "End of Work Week"
 ---
 
 Welcome to **EoWW**: a weekly selection of curious things to reverse work week wwoe
