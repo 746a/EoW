@@ -1,17 +1,11 @@
 /* Base layout */
 
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
-.bitcount-grid-double-pixel {
-  font-family: "Bitcount Grid Double", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 250;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -46,7 +40,9 @@ main {
 }
 
 /* Headings */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #2c2c2c;
     margin-top: 1.5rem;
@@ -54,10 +50,9 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-family: "Bitcount Grid Double", Georgia, serif;
-    font-size: 2rem;
+    font-family: "Young Serif", Georgia, serif;
+    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 h2 {
@@ -105,13 +100,13 @@ body.home .editions .card {
     border: 1px solid #eee;
     border-radius: 10px;
     padding: 1.2rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 body.home .editions .card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 body.home .editions .card h2 {
@@ -133,7 +128,7 @@ body.week article {
     border: 1px solid #eee;
     border-radius: 10px;
     padding: 2rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 body.week .date {
@@ -152,14 +147,22 @@ blockquote {
     font-style: italic;
 }
 
+.motto {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Young Serif", Georgia, serif;
+}
+
 /* Responsive tweaks */
 @media (max-width: 600px) {
     h1 {
         font-size: 1.8rem;
     }
+
     body.home header h1 {
         font-size: 2rem;
     }
+
     body.home .editions {
         grid-template-columns: 1fr;
     }
