@@ -45,13 +45,14 @@ h2,
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #2c2c2c;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
 
 h1 {
     font-family: "Young Serif", Georgia, serif;
     font-size: 2.5rem;
+    text-align: center;
 }
 
 h2 {
@@ -153,50 +154,12 @@ blockquote {
 }
 
 .backHome {
-    display: block;
-    width: max-content;
-    margin: 0 auto 1rem;
-    font-family: "Young Serif", Georgia, serif;
-    text-decoration: none;
-    text-align: center;
+  display: block; 
+  font-size: 1em;
+  font-family: "Young Serif", Georgia, serif;
+  text-align: left;
+  margin-bottom: 1rem;
 }
-
-/*Animated Background*/
-
-body {
-    background-color: #f7f3ee;
-    /* base color */
-    overflow: hidden;
-    position: relative;
-}
-
-.halftone {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: -1;
-
-    /* halftone pattern using radial-gradient */
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-    background-size: 20px 20px;
-
-    /* animate subtle drift */
-    animation: halftoneShift 30s linear infinite;
-}
-
-@keyframes halftoneShift {
-    0% {
-        background-position: 0 0;
-    }
-
-    100% {
-        background-position: 200px 200px;
-    }
-}
-
 
 /* Responsive tweaks */
 @media (max-width: 600px) {
