@@ -19,18 +19,13 @@ body {
 }
 
 a {
-    color: #0000ff;
-    border-bottom: 1px solid #0000ff;
-}
-
-a:hover {
-    color: #0000cc;
-    border-bottom: 1px solid #0000cc;
+    color: #0000ff !important;
+    border-bottom: 1px solid #0000ff !important;
 }
 
 a:visited {
-    color: #9523ff;
-    border-bottom: 1px solid #9523ff;
+    color: #9523ff !important;
+    border-bottom: 1px solid #9523ff !important;
 }
 
 main {
