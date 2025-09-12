@@ -1,9 +1,22 @@
 ---
 layout: default
 ---
-<a href="{{ '/' | relative_url }}">&#8592; Back to Home</a>
+
+<a class="backHome" href="{{ '/' | relative_url }}">&#8592; Back to Home</a>
+
+<!-- Motto section -->
+<div class="motto">
+  <p>Welcome to <b>EoWW:</b> a weekly selection of curious things to reverse work week wwoe</p>
+</div>
+
 <article class="week">
   <h1>{{ page.title }}</h1>
   <p class="date">{{ page.date | date: "%d %B %Y" }}</p>
   {{ content }}
 </article>
+
+<!-- Closing section -->
+<h1>End of Work Week</h1>
+<div class="motto">
+  <i>Interesting links for interested people</i>
+</div>

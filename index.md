@@ -1,9 +1,9 @@
 ---
 layout: home
-
+Title: "EoWW: a weekly selection of curious things to reverse work week wwoe"
 ---
 
-Welcome to **EoWW**, a curated weekly selection of curious things to reverse work week wwoe.
+Welcome to **EoWW**: a weekly selection of curious things to reverse work week wwoe
 
 ## Weekly Editions
 
