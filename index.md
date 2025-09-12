@@ -3,8 +3,6 @@ layout: home
 
 ---
 
-# EoWW - End Of Work Week
-
 Welcome to **EoWW**, a curated weekly selection of curious things to reverse work week wwoe.
 
 ## Weekly Editions
