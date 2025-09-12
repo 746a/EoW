@@ -7,7 +7,7 @@ layout: home
 
 Welcome to **EoWW**, a curated weekly selection of curious things to reverse work week wwoe.
 
-## Weeks
+## Weekly Editions
 
 {% assign sorted = site.weeks | sort: "date" | reverse %}
 <div class="editions">
