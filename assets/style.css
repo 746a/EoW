@@ -149,7 +149,7 @@ blockquote {
 }
 
 .backHome {
-  display: block; 
+  display: inline-block; 
   font-size: 1em;
   font-family: "Young Serif", Georgia, serif;
   text-align: left;
